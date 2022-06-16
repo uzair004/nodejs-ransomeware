@@ -17,7 +17,9 @@ It uses a bash script to do encrypt/decrypt folder. [Bash Script to Encrypt/Decr
 
 if your folder got encrypted, you can follow procedure in gist comment to decrypt it again.
 
-the folder to encrypt & public key used to encrypt can be found in above script, you can change it to your own target folder path or use your own public/private keys pair.
+the folder to encrypt & public key used to encrypt can be found in above script, you can change it to your own target folder path or use your own public/private keys pair. (CHANGING PUBLIC KEY IN SCRIPT MEANS, DECRYPTION METHOD PROVIDED IN GIST COMMENT WON'T WORK, AS MY PRIVATE KEY WON'T WORK ANYMORE.)
+
+----
 
 **Generating private key:**
 ```openssl genrsa -aes256 -out private.pem```
